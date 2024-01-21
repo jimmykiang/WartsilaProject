@@ -62,7 +62,7 @@ Build and package the .jar with Maven for the following Java Springboot componen
 
 api-gateway, forklift-mock-simulator, forklift-position-tracker
 
-General commands and URLs:
+### General commands and URLs:
 
 Angular
 http://localhost:30080/
@@ -72,9 +72,6 @@ http://localhost:30010/
 
 API Gateway
 http://localhost:30020/vehicles/
-
-
-docker rmi webapp-angular:1.0
 
 docker build -t webapp-angular:1.0 .
 
@@ -88,14 +85,14 @@ docker build -t api-gateway:1.0 .
 
 kubectl apply -f .
 
-kubectl exec -it webapp-release-1 sh
-
-
 Exec into mongoDB container and type mongo.
+
+kubectl exec -it mongdb sh
 
 show dbs
 
 use test
+
 show collections
 
 db.vehiclePosition.find()

@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import com.wartsila.tracker.domain.VehiclePosition;
 
 public interface PositionRepository extends MongoRepository<VehiclePosition, String> {
-	List<VehiclePosition> findByNameAndTimestampAfterf(String name, Date timestamp);
+	List<VehiclePosition> findByNameAndTimestampAfter(String name, Date timestamp);
 	Collection<VehiclePosition> findByTimestampAfter(Date since);
 
 	@Aggregation(pipeline = { "{ '$group': { '_id' : '$name' } }" })

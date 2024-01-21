@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.wartsila.api.domain.VehiclePosition;
 
-@FeignClient(url="${position-tracker-url}", name="fleetman-position-tracker")
+@FeignClient(url="${position-tracker-url}", name="position-tracker")
 public interface RemotePositionMicroserviceCalls 
 {
 	@RequestMapping(method=RequestMethod.GET, value="/vehicles/")

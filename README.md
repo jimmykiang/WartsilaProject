@@ -49,7 +49,7 @@ thus preventing security breaches such as man-in-the-middle attacks.
 
 ## Design the Entity Relationship Diagrams.
 
-see entityRelationshipDiagram.png
+![Image Caption](entityRelationshipDiagram.png)
 
 ## How to run on the local computer (an instance of local Kubernetes is assumed to be pre-configured and running)
 

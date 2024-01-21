@@ -11,11 +11,12 @@ be deployed into a variety of infrastructure either physical on premise servers 
 infrastructure service provider (AWS, Azure, Digital Ocean, and so on).
 
 The rationale of choosing a distributed architecture is to think ahead into the future with
-horizontal scalability in mind so that the overall platform is able to handle
-a larger number of devices and users concurrently as both end user and forklift traffic increases
-along with potentially increasing amount of incoming data, in preparation for when the fleet
-of forklifts were to increase. The architectural design has in mind that our software solution
-will not be the bottleneck for data ingestion.
+horizontal scalability in mind and flexibility for future expansion in the form of new features rollout,
+so that the overall platform is able to handle a larger number of devices and users concurrently
+as both end user and forklift traffic increases along with potentially increasing amount of
+incoming data, in preparation for when the fleet of forklifts were to increase.
+This architectural design shares the vision that our software solution will not become the bottleneck
+for data ingestion.
 
 A modern queue system such as Apache ActiveMQ or the more advanced Apache Kafka can further be used as 
 a means to decouple the process of data ingestion (position + metadata from the forklifts) using 

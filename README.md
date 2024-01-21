@@ -54,7 +54,7 @@ thus preventing security breaches such as man-in-the-middle attacks.
 ## Design the Entity Relationship Diagrams.
 <br><br>
 
-![Image Caption](entityRelationshipDiagram.png)
+![Image Caption](EntityRelationshipDiagram.png)
 
 ## How to run on the local computer (an instance of local Kubernetes is assumed to be pre-configured and running)
 
@@ -96,3 +96,15 @@ use test
 show collections
 
 db.vehiclePosition.find()
+
+## Screenshots from the Proof of Concept.
+
+The database will be periodically populated with the incoming position data.
+
+![Image Caption](Database.png)
+
+<br>
+You should expect to see the following Angular front-end in the browser updating in real time
+as soon as the data is continously arriving.
+
+![Image Caption](AngularFront.png)

@@ -11,7 +11,7 @@ be deployed into a variety of infrastructure either physical on premise servers 
 infrastructure service provider (AWS, Azure, Digital Ocean, and so on).
 
 The rationale of choosing a distributed architecture is to think ahead into the future with
-horizontal scalability in mind and flexibility for future expansion inn the form of new features rollout,
+horizontal scalability in mind and flexibility for future expansion in the form of new features rollout,
 so that the overall platform is able to handle a larger number of devices and users concurrently
 as both end user and forklift traffic increases along with potentially increasing amount of
 incoming data, in preparation for when the fleet of forklifts were to increase.

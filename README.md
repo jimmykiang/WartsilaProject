@@ -46,12 +46,22 @@ coordinates from the bluetooth tracking devices which are exposed by the on prem
 on premise servers are exposing the API endpoint without encryption or other security measures, then
 dedicated VPNs connecting the networks can be established to make this last mile connection secure,
 thus preventing security breaches such as man-in-the-middle attacks.
+<br><br>
+
+![Image Caption](SoftwareArchitecture.png)
 
 ## Design the Entity Relationship Diagrams.
+<br><br>
 
 ![Image Caption](entityRelationshipDiagram.png)
 
 ## How to run on the local computer (an instance of local Kubernetes is assumed to be pre-configured and running)
+
+Build and package the .jar with Maven for the following Java Springboot components:
+
+api-gateway, forklift-mock-simulator, forklift-position-tracker
+
+General commands and URLs:
 
 Angular
 http://localhost:30080/

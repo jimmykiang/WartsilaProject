@@ -6,9 +6,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class FleetmanApiGateway {
+public class ApiGateway {
 	public static void main(String[] args) {
-		SpringApplication.run(FleetmanApiGateway.class, args);		
+		SpringApplication.run(ApiGateway.class, args);
 	}	
 }
 

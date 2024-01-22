@@ -4,7 +4,7 @@ Having in consideration that there will be a local on premise server collecting
 the position and metadata coming from the bluetooth tracking devices at every facility,
 then we would be aiming to build a system that is scalable, reliable and secure.
 
-Microservices based architecture is a modern way which can help modularize the system to smaller,
+Microservices based architecture is a modern way which can help modularize the system down to smaller,
 easier to manage and maintain components. Docker plays a role in containerizing every
 component of the software solution neatly packaging all runtime dependencies into images that can 
 be deployed into a variety of infrastructure either physical on premise servers or cloud based
@@ -99,12 +99,12 @@ db.vehiclePosition.find()
 
 ## Screenshots from the Proof of Concept.
 
-The database will be periodically populated with the incoming position data.
+The database will be periodically populated with the incoming position data (mock data for testing purposes).
 
 ![Image Caption](Database.png)
 
 <br>
 You should expect to see the following Angular front-end in the browser updating in real time
-as soon as the data is continously arriving.
+as soon as the mock data is continously arriving.
 
 ![Image Caption](AngularFront.png)

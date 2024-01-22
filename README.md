@@ -52,6 +52,9 @@ thus preventing security breaches such as man-in-the-middle attacks.
 ![Image Caption](SoftwareArchitecture.png)
 
 ## Design the Entity Relationship Diagrams.
+
+
+The database schema for the system could be modeled using the following Entity Relationship Diagram as shown below:
 <br><br>
 
 ![Image Caption](EntityRelationshipDiagram.png)

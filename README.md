@@ -110,4 +110,4 @@ The database will be periodically populated with the incoming position data (moc
 You should expect to see the following Angular front-end in the browser updating in real time
 as soon as the mock data is continously arriving.
 
-![Image Caption](AngularFront.png)
+![Image Caption](AngularFront.gif)
